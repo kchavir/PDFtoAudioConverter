@@ -6,7 +6,7 @@ import os
 
 TITLE_COLOR = "#00ADB5"
 WORD_FONT = ("Times New Roman", 20)
-WORD_COLOR = "#EEEEEE"
+WORD_COLOR = "#36454f"
 BACKGROUND_COLOR = "#222831"
 BTN_BACKGROUND_COLOR = "#393E46"
 
@@ -47,7 +47,7 @@ canvas.create_image(130, 130, image=logo_img)
 canvas.grid(row=0, column=0, pady=20)
 
 open_btn = Button(
-    text="1. Select PDF",
+    text="Select PDF",
     font=WORD_FONT,
     width=15,
     fg=WORD_COLOR,
@@ -57,7 +57,7 @@ open_btn = Button(
 )
 
 play_btn = Button(
-    text="2. Play Audio",
+    text="Play Audio",
     font=WORD_FONT,
     width=15,
     fg=WORD_COLOR,
